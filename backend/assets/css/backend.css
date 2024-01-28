@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.fontsize {
+    font-size: 16px;
+}
+
+.blue {
+    color: #173b6c;
+}
+
+.icon {
+    color: #149ddd
+}
+.table-icon{
+    font-size: 18px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #040b14;
+    width: 300px;
+    position: fixed;
+    left: 0px;
+    z-index: 3;
+}
+
+.profile-image {
+    /* height: 200px; */
+    width: 250px;
+    padding-left: 50px;
+    padding-right: 2px;
+    padding-top: 29px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-left: 16px;
+    border: 7px solid #212431;
+}
+li span {
+    padding: 6px;
+}
+
+
+.sidebar ul {
+    padding: 30px;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    padding-top: 35px;
+}
+
+.sidebar ul li a {
+    color: #a8a9b4;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: #fff;
+
+    span {
+        color: #149ddd;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:100%;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.main-data {
+    width: 78%;
+    position: absolute;
+    right: 0px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align:center;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #149ddd;
+    color: white;
+    text-align: center;
+}
+.top-btn{
+    margin: 10px;
+}
+.alert{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color:lightblue;
+}
+.form-main{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.form-same{
+    width: 50%;
+}
+/* dashboard */
+.main-dashboard{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* margin-top: 80px; */
+}
+.dashboard-item{
+    width:20%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color:#2e789b;
+    border-radius: 8px;
+    box-shadow: 5px 6px 13px black;
+}
+.dashboard-item p{
+    /* margin-bottom: 15px; */
+    padding: 20px;
+    font-size: 25px;
+    border-top: 1px solid white;
+}
+.dashboard-item a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard-item:hover{
+  background-color:#73a6be;
+  cursor: pointer;
+}
+.section-title{
+    font-size: 30px;
+    padding: 20px;
+
+}
+/* side config */
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Style the form select */
+.form-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the form select options */
+.form-select option {
+    font-size: 14px;
+}
+.active {
+    color: #fff;
+
+    span {
+        color: #149ddd;
+    }
+}
+.sidebar li.active a {
+    color: white; /* Set the text color of the active link */
+}
